@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fully Charged Nepal - Sustainable E-waste & EV Battery Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font with various weights */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles can be added here if absolutely necessary,
+           but prefer Tailwind utilities for responsiveness and consistency. */
+        .hero-background {
+            /* Placeholder for hero background image/video */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('placeholder-hero-image.jpg'); /* Suggest a relevant image */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3; /* Make it subtle behind text */
+            z-index: -1;
+        }
+         /* Basic styling for icon placeholders - can be replaced with actual icons/SVGs */
+        .icon-placeholder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         /* Basic styling for photo placeholders - can be replaced with actual images */
+        .photo-placeholder {
+             display: block; /* Ensures it takes up space */
+             object-fit: cover; /* Ensures images cover the area when replaced */
+        }
+         /* Style for the lightning bolt in the logo */
+        .lightning-bolt {
+            color: #ff9800; /* Orange color for the lightning bolt */
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-white leading-relaxed">
+
+    <header class="bg-white shadow-md py-3">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-green-600">FULLY CHARG<span class="lightning-bolt">⚡</span>D NEPAL</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="/" class="text-gray-600 hover:text-green-600 font-semibold transition duration-300">Home</a></li>
+                    <li><a href="/services" class="text-gray-600 hover:text-green-600 font-semibold transition duration-300">Services</a></li>
+                    <li><a href="/process" class="text-gray-600 hover:text-green-600 font-semibold transition duration-300">Process</a></li>
+                    <li><a href="/about" class="text-gray-600 hover:text-green-600 font-semibold transition duration-300">About Us</a></li>
+                    <li><a href="/contact" class="text-gray-600 hover:text-green-600 font-semibold transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative bg-green-50 text-gray-800 text-center py-20 px-4 overflow-hidden">
+        <div class="hero-background"></div>
+        <div class="container mx-auto relative z-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-green-800">WHAT ARE WE REALLY CHARGING UP FOR?</h1>
+            <p class="text-xl md:text-2xl mb-8">FULLY CHARG<span class="lightning-bolt">⚡</span>D NEPAL: Your trusted partner for safe, environmentally sound e-waste and EV battery collection, repurposing, and recycling solutions in Nepal, powering a sustainable future.</p>
+            <a href="/contact" class="inline-block bg-orange-500 text-white font-semibold py-3 px-8 rounded-lg text-lg hover:bg-orange-600 transition duration-300">Request a Pickup</a>
+        </div>
+    </section>
+
+    <section class="section py-16 px-4 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Nepal's Growing E-waste & EV Battery Challenge</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🗑️</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">Increasing Waste Volume</h3>
+                    <p class="text-gray-700">The volume of electronic waste and emerging EV battery waste is rapidly growing in Nepal.</p>
+                </div>
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                     <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">⚖️</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">Lack of Regulations</h3>
+                    <p class="text-gray-700">There is a significant lack of specific collection guidelines and regulations for this waste stream in Nepal.</p>
+                </div>
+                 <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">☣️</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">Hazardous Materials</h3>
+                    <p class="text-gray-700">Improper disposal, often mixed with municipal waste, releases toxic materials like lead, mercury, lithium, cobalt, and nickel, harming health and environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="section py-16 px-4 text-center bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Our Sustainable Solution</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">♻️</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">E-waste Collection & Recycling</h3>
+                    <p class="text-gray-700">Responsible handling and environmentally sound dismantling of various electronics.</p>
+                </div>
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                     <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🔒</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">IT Asset Disposition (ITAD)</h3>
+                    <p class="text-gray-700">Offering secure data destruction for IT assets to protect your information.</p>
+                </div>
+                 <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🔋</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">EV Battery Management</h3>
+                    <p class="text-gray-700">Collection, assessment for second life applications (like stationary storage), or safe recycling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="section py-16 px-4 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Simple Steps to Responsible Disposal</h2>
+            <div class="flex flex-wrap justify-center gap-8 mt-10">
+                <div class="process-step flex flex-col items-center w-full sm:w-1/2 md:w-1/4 max-w-xs">
+                    <div class="step-icon w-16 h-16 bg-blue-500 text-white text-2xl rounded-full flex justify-center items-center mb-4">1</div>
+                    <div class="step-number text-xl font-bold mb-2 text-gray-700">Contact Us</div>
+                    <p class="text-gray-600">Get in touch via our form or phone.</p>
+                </div>
+                <div class="process-step flex flex-col items-center w-full sm:w-1/2 md:w-1/4 max-w-xs">
+                     <div class="step-icon w-16 h-16 bg-blue-500 text-white text-2xl rounded-full flex justify-center items-center mb-4">2</div>
+                    <div class="step-number text-xl font-bold mb-2 text-gray-700">Schedule Pickup</div>
+                    <p class="text-gray-600">We arrange a convenient collection time.</p>
+                </div>
+                 <div class="process-step flex flex-col items-center w-full sm:w-1/2 md:w-1/4 max-w-xs">
+                     <div class="step-icon w-16 h-16 bg-blue-500 text-white text-2xl rounded-full flex justify-center items-center mb-4">3</div>
+                    <div class="step-number text-xl font-bold mb-2 text-gray-700">Safe Collection</div>
+                    <p class="text-gray-600">We safely collect your e-waste or batteries.</p>
+                </div>
+                 <div class="process-step flex flex-col items-center w-full sm:w-1/2 md:w-1/4 max-w-xs">
+                     <div class="step-icon w-16 h-16 bg-blue-500 text-white text-2xl rounded-full flex justify-center items-center mb-4">4</div>
+                    <div class="step-number text-xl font-bold mb-2 text-gray-700">Processing & Recycling</div>
+                    <p class="text-gray-600">We process items for reuse or recycling responsibly.</p>
+                </div>
+            </div>
+             <p class="mt-8 text-gray-700">Our process ensures formal, responsible management over informal disposal.</p>
+        </div>
+    </section>
+
+    <section class="section py-16 px-4 text-center bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Our Impact: Contributing to a Circular Economy & Global Goals</h2>
+             <div class="flex flex-wrap justify-center gap-8 mb-12">
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                     <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🌍</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">Protecting the Environment</h3>
+                    <p class="text-gray-700">Preventing pollution from hazardous materials and conserving natural resources.</p>
+                </div>
+                <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🔄</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">Promoting Circularity</h3>
+                    <p class="text-gray-700">Recovering valuable materials and giving batteries a second life reduces the need for new mining. We are committed to circular economy principles.</p>
+                </div>
+                 <div class="content-block w-full sm:w-1/2 lg:w-1/3 max-w-sm text-left p-6 bg-white rounded-lg shadow-md">
+                    <div class="icon-placeholder w-20 h-20 bg-green-600 text-white text-4xl rounded-lg mb-6 mx-auto sm:mx-0">🇳🇵</div> <h3 class="text-xl font-semibold mb-3 text-gray-900">A Cleaner Nepal</h3>
+                    <p class="text-gray-700">Directly contributing to a healthier environment and sustainable development in Nepal, addressing the lack of specific government action.</p>
+                </div>
+            </div>
+
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold mb-8 text-gray-800">Addressing Global Challenges: Our Commitment to the SDGs</h3>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-orange-500 mb-2">7</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Affordable & Clean Energy</h4>
+                        <p class="text-gray-700 text-sm">By repurposing EV batteries for stationary storage, we contribute to providing access to affordable and clean energy solutions.</p>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-orange-500 mb-2">9</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Industry, Innovation & Infrastructure</h4>
+                        <p class="text-gray-700 text-sm">Our advanced recycling processes and focus on second-life battery applications drive innovation and build sustainable infrastructure in Nepal.</p>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-orange-500 mb-2">11</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Sustainable Cities & Communities</h4>
+                        <p class="text-gray-700 text-sm">Proper e-waste and battery management reduces pollution, creating healthier and more sustainable urban and rural communities.</p>
+                    </div>
+                     <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-green-600 mb-2">12</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Responsible Consumption & Production</h4>
+                        <p class="text-gray-700 text-sm">We promote circular economy principles by ensuring e-waste and batteries are responsibly managed, reducing the need for raw material extraction.</p>
+                    </div>
+                     <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-green-600 mb-2">13</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Climate Action</h4>
+                        <p class="text-gray-700 text-sm">Preventing hazardous waste pollution and promoting sustainable resource use directly contributes to mitigating climate change impacts.</p>
+                    </div>
+                     <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs p-4 bg-white rounded-lg shadow-md text-left">
+                        <div class="text-3xl font-bold text-green-600 mb-2">15</div>
+                        <h4 class="text-lg font-semibold mb-2 text-gray-900">Life on Land</h4>
+                        <p class="text-gray-700 text-sm">Responsible waste management protects ecosystems and prevents land degradation caused by improper disposal of hazardous materials.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="section py-16 px-4 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Meet the Visionaries Behind Fully Charged Nepal</h2>
+            <div class="flex flex-wrap justify-center gap-8 mt-10">
+                <div class="team-member flex flex-col items-center w-full sm:w-1/2 md:w-1/3 max-w-xs">
+                    <img src="placeholder-your-photo.jpg" alt="[Your Name]" class="photo-placeholder w-40 h-40 bg-gray-300 rounded-full mb-4">
+                    <h3 class="text-lg font-semibold mb-1 text-gray-900">[Your Name]</h3>
+                    <p class="text-gray-600 mb-3">Co-Founder</p>
+                    <p class="text-gray-700 text-sm">As a Co-Founder, [Your Name] is driven by a passion for environmental sustainability and leveraging technology to create a cleaner future for Nepal.</p>
+                </div>
+                 <div class="team-member flex flex-col items-center w-full sm:w-1/2 md:w-1/3 max-w-xs">
+                    <div class="photo-placeholder w-40 h-40 bg-gray-300 rounded-full mb-4 flex justify-center items-center text-gray-600">[Photo]</div>
+                    <h3 class="text-lg font-semibold mb-1 text-gray-900">[Name/Placeholder]</h3>
+                    <p class="text-gray-600 mb-3">[Title - e.g., CEO, Co-Founder]</p>
+                    <p class="text-gray-700 text-sm">[This space is for another Co-Founder/CEO. Add their photo, name, title, and a brief bio focusing on their expertise and contribution to the mission. Edit later.]</p>
+                </div>
+                 </div>
+             <p class="mt-8 text-gray-700"><a href="/about" class="text-blue-600 hover:underline">Learn more about our team and mission.</a></p>
+        </div>
+    </section>
+
+    <section class="section py-16 px-4 text-center bg-green-700 text-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Power a Cleaner Future?</h2>
+            <p class="text-xl mb-10">Contact us today for inquiries or to schedule your responsible e-waste or EV battery disposal.</p>
+            <a href="/contact" class="inline-block bg-orange-500 text-white font-semibold py-3 px-8 rounded-lg text-lg hover:bg-orange-600 transition duration-300">Get In Touch</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-10 px-4 text-center">
+        <div class="container mx-auto">
+            <div class="text-2xl font-extrabold text-green-500 mb-4">FULLY CHARG<span class="lightning-bolt">⚡</span>D NEPAL</div>
+            <p class="mb-6">Your partner for sustainable e-waste and EV battery management in Nepal.</p>
+             <div class="footer-links mb-6">
+                <ul class="flex justify-center space-x-6 flex-wrap gap-y-2">
+                    <li><a href="/" class="hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="/services" class="hover:text-white transition duration-300">Services</a></li>
+                    <li><a href="/process" class="hover:text-white transition duration-300">Process</a></li>
+                    <li><a href="/about" class="hover:text-white transition duration-300">About Us</a></li>
+                    <li><a href="/contact" class="hover:text-white transition duration-300">Contact</a></li>
+                    <li><a href="/resources" class="hover:text-white transition duration-300">Resources/FAQ</a></li>
+                </ul>
+             </div>
+             <div class="social-links text-2xl space-x-6 mb-6">
+                 <a href="#" class="hover:text-white transition duration-300">📘</a> <a href="#" class="hover:text-white transition duration-300">🐦</a> <a href="#" class="hover:text-white transition duration-300">📸</a> <a href="#" class="hover:text-white transition duration-300">📊</a> </div>
+            <p class="mb-2">Phone: [+977 ...]</p> <p class="mb-6">Email: [info@fullychargednepal.com]</p> <p class="text-gray-500 text-sm">&copy; 2024 Fully Charged Nepal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
