@@ -21,7 +21,7 @@ export default function ContactForm() {
               </div>
             ) : (
               <form 
-                action="https://formsubmit.co/a13a8d91a991d0b26e6f1c10a89b1dfc" 
+                action="https://formsubmit.co/fullychargednepal@gmail.com" 
                 method="POST"
                 className="space-y-6"
                 onSubmit={() => setSubmitted(true)}
