@@ -1,39 +1,8 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    service: "",
-    message: ""
-  });
-  
+  // For displaying thank you message after form submission
   const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log("Form submitted:", formData);
-    // Show success message
-    setSubmitted(true);
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
-      message: ""
-    });
-  };
 
   return (
     <section className="section py-16 px-4 bg-gray-100">
@@ -51,7 +20,21 @@ export default function ContactForm() {
                 <p className="text-green-600">Your message has been sent successfully. We'll get back to you soon.</p>
               </div>
             ) : (
-              <form className="space-y-6" onSubmit={handleSubmit}>
+              <form 
+                action="https://formsubmit.co/fullychargednepal@gmail.com" 
+                method="POST"
+                className="space-y-6"
+                onSubmit={() => setSubmitted(true)}
+              >
+                {/* Honeypot to prevent spam */}
+                <input type="text" name="_honey" style={{display: 'none'}} />
+                
+                {/* Disable captcha */}
+                <input type="hidden" name="_captcha" value="false" />
+                
+                {/* Redirect after submission */}
+                <input type="hidden" name="_next" value={window.location.href} />
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
@@ -59,8 +42,6 @@ export default function ContactForm() {
                       type="text" 
                       id="name" 
                       name="name" 
-                      value={formData.name}
-                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500" 
                       placeholder="Your Name"
                       required
@@ -72,8 +53,6 @@ export default function ContactForm() {
                       type="email" 
                       id="email" 
                       name="email" 
-                      value={formData.email}
-                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500" 
                       placeholder="Your Email"
                       required
@@ -86,8 +65,6 @@ export default function ContactForm() {
                     type="tel" 
                     id="phone" 
                     name="phone" 
-                    value={formData.phone}
-                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500" 
                     placeholder="Your Phone Number"
                     required
@@ -98,8 +75,6 @@ export default function ContactForm() {
                   <select 
                     id="service" 
                     name="service" 
-                    value={formData.service}
-                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"
                     required
                   >
@@ -116,8 +91,6 @@ export default function ContactForm() {
                     id="message" 
                     name="message" 
                     rows={4} 
-                    value={formData.message}
-                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500" 
                     placeholder="Tell us about your needs or questions"
                     required
