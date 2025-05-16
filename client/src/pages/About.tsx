@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Impact from "@/components/Impact";
 import ContactForm from "@/components/ContactForm";
+import Team from "@/components/Team";
 
 export default function About() {
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Team />
       <Impact />
       <ContactForm />
     </div>
